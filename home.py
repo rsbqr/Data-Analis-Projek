@@ -42,8 +42,8 @@ def run():
         - Repository Github [Projek Ini](https://github.com/rsbqr/Data-Analis-Projek.git)
         
         ### Penjelasan Singkat mengenai Data
-        - [Bike Data Sharing](https://github.com/streamlit/demo-self-driving)
-        - [ComingSoon](https://github.com/streamlit/demo-uber-nyc-pickups)
+        - [Bike Data Sharing](https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset)
+        - [ComingSoon]
     """
     )
 
