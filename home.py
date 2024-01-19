@@ -39,12 +39,11 @@ def run():
         👈 _Silahkan pilih menu di sidebar_ untuk mengaksesnya
         ### Informasi
         - Website [streamlit.io](https://streamlit.io)
-        - Repository Github [Projek Ini](https://docs.streamlit.io)
+        - Repository Github [Projek Ini](https://github.com/rsbqr/Data-Analis-Projek.git)
         
         ### Penjelasan Singkat mengenai Data
-        - Bike Data Sharing [analyze the Udacity Self-driving Car Image
-          Dataset](https://github.com/streamlit/demo-self-driving)
-        - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
+        - [Bike Data Sharing](https://github.com/streamlit/demo-self-driving)
+        - [ComingSoon](https://github.com/streamlit/demo-uber-nyc-pickups)
     """
     )
 
