@@ -40,8 +40,7 @@ def run():
         👈 _Silahkan pilih menu di sidebar_ untuk mengaksesnya
         
         :red[Note] Jika akses menggunakan mobile
-        
-        _Menu_ dapat diakses dengan klik button pada :yellow[pojok kiri atas]
+        _Menu_ dapat diakses dengan klik button pada :blue[pojok kiri atas]
 
         ### Informasi
         - Website [streamlit.io](https://streamlit.io)
