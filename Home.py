@@ -17,7 +17,9 @@ from streamlit.logger import get_logger
 
 LOGGER = get_logger(__name__)
 
-#ini salam
+# ini salam
+
+
 def run():
     # [theme]
     # base="dark"
@@ -29,23 +31,25 @@ def run():
     st.write("# Selamat Datang 👋")
 
     st.sidebar.success("pilih menu di atas")
-    #ini awalan penjelasan
+    # ini awalan penjelasan
     st.markdown(
         """
-        Ini halaman khusus untuk menampilkan :blue[dashboard untuk menampilkan data], yang sebelumnya data tersebut 
-        sudah _cleaning_ secara sederhana kemudian deploy dengan :blue[Streamlit], :blue[Github] sebagai repository 
-        dan menggunakan :blue[Python].
+        Ini halaman khusus untuk menampilkan :blue[dashboard untuk menampilkan data], yang sebelumnya data tersebut sudah _cleaning_ secara sederhana 
+        kemudian deploy dengan :blue[Streamlit], :blue[Github] sebagai repository dan menggunakan :blue[Python].
         
         👈 _Silahkan pilih menu di sidebar_ untuk mengaksesnya
         
         :red[Note] Jika akses menggunakan mobile
+        
         _Menu_ dapat diakses dengan klik button pada :yellow[pojok kiri atas]
+
         ### Informasi
         - Website [streamlit.io](https://streamlit.io)
         - Repository Github [Projek Ini](https://github.com/rsbqr/Data-Analis-Projek.git)
         
         ### Penjelasan Singkat mengenai Data
-        - [Bike Data Sharing](https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset)\
+        - [Bike Data Sharing](https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset)
+
         Data pada tahun 2011 sampai 2012 pada sistem berbagi sepeda Capital dengan berisi informasi cuaca dan musiman yang sesuai
         dan jumlah sepeda sewaan per jam dan harian antara tahun.
         """
