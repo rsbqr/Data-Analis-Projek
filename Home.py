@@ -45,8 +45,10 @@ def run():
         - Repository Github [Projek Ini](https://github.com/rsbqr/Data-Analis-Projek.git)
         
         ### Penjelasan Singkat mengenai Data
-        - [Bike Data Sharing](https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset)
-    """
+        - [Bike Data Sharing](https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset)\
+        Data pada tahun 2011 sampai 2012 pada sistem berbagi sepeda Capital dengan berisi informasi cuaca dan musiman yang sesuai
+        dan jumlah sepeda sewaan per jam dan harian antara tahun.
+        """
     )
 
 
