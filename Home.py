@@ -32,18 +32,19 @@ def run():
     #ini awalan penjelasan
     st.markdown(
         """
-        Ini halaman khusus untuk menampilkan :blue[beberapa dashboard yang menampilkan data], 
+        Ini halaman khusus untuk menampilkan :yellow[beberapa dashboard yang menampilkan data], 
         yang sebelumnya data tersebut sudah cleaning secara sederhana
-        kemudian deploy dengan streamlit dan github sebagai repository.
+        kemudian deploy dengan Streamlit dan Github sebagai repository dan menggunakan Python.
         
         👈 _Silahkan pilih menu di sidebar_ untuk mengaksesnya
+        :red[Note] Jika akses menggunakan mobile
+        _Menu dapat diakses dengan klik button pada :yellow[pojok kiri atas]
         ### Informasi
         - Website [streamlit.io](https://streamlit.io)
         - Repository Github [Projek Ini](https://github.com/rsbqr/Data-Analis-Projek.git)
         
         ### Penjelasan Singkat mengenai Data
         - [Bike Data Sharing](https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset)
-        - [ComingSoon]
     """
     )
 
