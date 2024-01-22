@@ -32,11 +32,12 @@ def run():
     #ini awalan penjelasan
     st.markdown(
         """
-        Ini halaman khusus untuk menampilkan :yellow[dashboard untuk menampilkan data], 
-        yang sebelumnya data tersebut sudah _cleaning_ secara sederhana
-        kemudian deploy dengan :blue[Streamlit], blue[Github] sebagai repository dan menggunakan :blue[Python].
+        Ini halaman khusus untuk menampilkan :blue[dashboard untuk menampilkan data], yang sebelumnya data tersebut 
+        sudah _cleaning_ secara sederhana kemudian deploy dengan :blue[Streamlit], :blue[Github] sebagai repository 
+        dan menggunakan :blue[Python].
         
         👈 _Silahkan pilih menu di sidebar_ untuk mengaksesnya
+        
         :red[Note] Jika akses menggunakan mobile
         _Menu_ dapat diakses dengan klik button pada :yellow[pojok kiri atas]
         ### Informasi
