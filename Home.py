@@ -32,13 +32,13 @@ def run():
     #ini awalan penjelasan
     st.markdown(
         """
-        Ini halaman khusus untuk menampilkan :yellow[beberapa dashboard yang menampilkan data], 
-        yang sebelumnya data tersebut sudah cleaning secara sederhana
-        kemudian deploy dengan Streamlit dan Github sebagai repository dan menggunakan Python.
+        Ini halaman khusus untuk menampilkan :yellow[dashboard untuk menampilkan data], 
+        yang sebelumnya data tersebut sudah _cleaning_ secara sederhana
+        kemudian deploy dengan :blue[Streamlit], blue[Github] sebagai repository dan menggunakan :blue[Python].
         
         👈 _Silahkan pilih menu di sidebar_ untuk mengaksesnya
         :red[Note] Jika akses menggunakan mobile
-        _Menu dapat diakses dengan klik button pada :yellow[pojok kiri atas]
+        _Menu_ dapat diakses dengan klik button pada :yellow[pojok kiri atas]
         ### Informasi
         - Website [streamlit.io](https://streamlit.io)
         - Repository Github [Projek Ini](https://github.com/rsbqr/Data-Analis-Projek.git)
