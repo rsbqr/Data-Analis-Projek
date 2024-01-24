@@ -34,7 +34,7 @@ def run():
     # ini awalan penjelasan
     st.markdown(
         """
-        Ini halaman khusus :blue[dashboard untuk menampilkan / _visualisasi_ data], yang sebelumnya data tersebut sudah _cleaning_ secara sederhana 
+        Ini halaman khusus :blue[dashboard untuk menampilkan / _visualisasi_ data] sederhana, yang sebelumnya data tersebut sudah _cleaning_ secara ringkas 
         kemudian deploy dengan :blue[Streamlit], pembuatan projek ini dengan pemograman :blue[Python] dan :blue[Github] sebagai repository projek ini.
         
         👈 _Silahkan pilih menu di sidebar_ untuk mengaksesnya
