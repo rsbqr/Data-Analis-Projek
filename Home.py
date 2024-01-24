@@ -34,14 +34,14 @@ def run():
     # ini awalan penjelasan
     st.markdown(
         """
-        Ini halaman khusus untuk menampilkan :blue[dashboard untuk menampilkan data], yang sebelumnya data tersebut sudah _cleaning_ secara sederhana 
-        kemudian deploy dengan :blue[Streamlit], :blue[Github] sebagai repository dan menggunakan :blue[Python].
+        Ini halaman khusus :blue[dashboard untuk menampilkan / _visualisasi_ data], yang sebelumnya data tersebut sudah _cleaning_ secara sederhana 
+        kemudian deploy dengan :blue[Streamlit], menggunakan pemograman :blue[Python] dan :blue[Github] sebagai repository projek ini.
         
         👈 _Silahkan pilih menu di sidebar_ untuk mengaksesnya
         
         :red[Note] Jika akses menggunakan _mobile_
         
-        _Menu_ dapat diakses dengan klik button pada :blue[pojok kiri atas]
+        _Menu_ dapat diakses dengan klik button seperti (>) pada :blue[pojok kiri atas]
 
         ### Informasi
         - Website [streamlit.io](https://streamlit.io)
@@ -50,7 +50,8 @@ def run():
         ### Penjelasan Singkat mengenai Data
         - [Bike Data Sharing](https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset)
 
-        Data pada tahun 2011 sampai 2012 pada sistem berbagi sepeda Capital berisi informasi cuaca, musiman,
+        Projek ini menggunakan data yang tersedia di website kaggle dan yang mencakup data pada tahun 2011 sampai 2012 
+        yang tercatat pada sistem berbagi sepeda (Bike Data Sharing) Capital yang berisi informasi cuaca, musiman,
         jumlah sepeda sewaan per jam dan harian.
         """
     )
