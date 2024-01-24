@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-st.set_page_config(page_title="Bike Data Demo", page_icon="🚲")
+st.set_page_config(page_title="Bikes Data Demo", page_icon="🚲")
 # st.markdown("# Bike Data Demo")
 # st.sidebar.header("Bike Data Demo")
 
