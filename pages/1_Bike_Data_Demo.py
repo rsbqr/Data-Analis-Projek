@@ -158,7 +158,7 @@ with st.sidebar:
     
     #tanggalan
     start_date, end_date = st.date_input(
-        label='Pilih Rentang Tanggal',min_value=min_date,
+        label='# Pilih Rentang Tanggal',min_value=min_date,
         max_value=max_date,
         value=[min_date, max_date]
     )
