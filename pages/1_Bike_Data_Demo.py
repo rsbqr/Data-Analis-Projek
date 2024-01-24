@@ -7,7 +7,6 @@ import streamlit as st
 st.set_page_config(page_title="Bike Data Demo", page_icon="🚲")
 # st.markdown("# Bike Data Demo")
 # st.sidebar.header("Bike Data Demo")
-st.sidebar.success("pilih tanggal awal dan tanggal akhir di atas")
 
 sns.set(style='dark')
 # function untuk dataframe pesepeda casual
@@ -160,7 +159,7 @@ with st.sidebar:
         max_value=max_date,
         value=[min_date, max_date]
     )
-
+st.sidebar.success("pilih tanggal awal dan tanggal akhir di atas")
 #dataframe 
 utama_df = data_df[(data_df["dteday"] >= str(start_date)) & 
                 (data_df["dteday"] <= str(end_date))]
