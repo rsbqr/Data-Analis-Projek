@@ -36,7 +36,7 @@ def buat_biasa_per_musim_df(df):
         2:  "summer",
         3:  "fall",
         4:  "winter"
-    }, inplace=False)
+    }, inplace=True)
     return biasa_per_musim_df
 
 # function registered pengelompokan per musim
@@ -277,7 +277,7 @@ sns.barplot(
     y="casual", 
     x="mnth",
     data=biasa_per_bulan_df.head(12),
-    # palette=colors, 
+    palette=colors, 
     ax=ax[0]
 )
 # ax.set_title("Pesepeda Biasa per Musim", loc="center", fontsize=50)
@@ -291,7 +291,7 @@ sns.barplot(
     y="registered", 
     x="mnth",
     data=terdaftar_per_bulan_df.head(12),
-    # palette=colors, 
+    palette=colors, 
     ax=ax[1]
 )
 ax[1].set_ylabel("Jumlah Pesepeda",labelpad=30,fontsize=30,rotation=270)
