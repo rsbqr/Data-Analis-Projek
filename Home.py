@@ -24,11 +24,11 @@ def run():
     # [theme]
     # base="dark"
     st.set_page_config(
-        page_title="Halo",
+        page_title="Halloo",
         page_icon="👋",
     )
 
-    st.write("# Selamat Datang 👋")
+    st.write("# Selamat Datang .. 👋")
 
     st.sidebar.success("pilih menu di atas")
     # ini awalan penjelasan
@@ -39,7 +39,7 @@ def run():
         
         👈 _Silahkan pilih menu di sidebar_ untuk mengaksesnya
         
-        :red[Note] Jika akses menggunakan mobile
+        :red[Note] Jika akses menggunakan _mobile_
         
         _Menu_ dapat diakses dengan klik button pada :blue[pojok kiri atas]
 
@@ -50,8 +50,8 @@ def run():
         ### Penjelasan Singkat mengenai Data
         - [Bike Data Sharing](https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset)
 
-        Data pada tahun 2011 sampai 2012 pada sistem berbagi sepeda Capital dengan berisi informasi cuaca dan musiman yang sesuai
-        dan jumlah sepeda sewaan per jam dan harian antara tahun.
+        Data pada tahun 2011 sampai 2012 pada sistem berbagi sepeda Capital berisi informasi cuaca, musiman,
+        jumlah sepeda sewaan per jam dan harian.
         """
     )
 
