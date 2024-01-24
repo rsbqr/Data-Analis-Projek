@@ -159,7 +159,7 @@ with st.sidebar:
         max_value=max_date,
         value=[min_date, max_date]
     )
-st.sidebar.success("pilih tanggal awal dan tanggal akhir di atas")
+    st.sidebar.success("pilih tanggal awal dan tanggal akhir di atas")
 #dataframe 
 utama_df = data_df[(data_df["dteday"] >= str(start_date)) & 
                 (data_df["dteday"] <= str(end_date))]
