@@ -26,7 +26,7 @@ def buat_harian_terdaftar_df(df):
 
 # function casual pengelompokan (grup) per musim
 def buat_biasa_per_musim_df(df):
-    biasa_per_musim_df = df.groupby(by="season").casual.sum().reset_index()
+    biasa_per_musim_df = df.groupby(by="season").casual.sum().apply(str).reset_index()
     # biasa_per_musim_df.rename(columns={
     #     "casual": "kasual"
     # }, inplace=True)
@@ -41,7 +41,7 @@ def buat_biasa_per_musim_df(df):
 
 # function registered pengelompokan per musim
 def buat_terdaftar_per_musim_df(df):
-    terdaftar_per_musim_df = df.groupby(by="season").registered.sum().reset_index()
+    terdaftar_per_musim_df = df.groupby(by="season").registered.sum().apply(str).reset_index()
     # biasa_per_musim_df.rename(columns={
     #     "casual": "kasual"
     # }, inplace=True)
