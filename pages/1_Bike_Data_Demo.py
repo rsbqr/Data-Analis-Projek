@@ -71,12 +71,12 @@ def buat_terdaftar_per_bulan_df(df):
 
 # function pesepeda casual per season diurut
 def buat_musim_biasa_df(df):
-    musim_biasa_df = df.groupby("season").casual.sum().sort_values(ascending=True).apply(str).reset_index()
+    musim_biasa_df = df.groupby("season").casual.sum().sort_values(ascending=True).reset_index()
     return musim_biasa_df
 
 # function yg terdaftar
 def buat_musim_terdaftar_df(df):
-    musim_terdaftar_df = df.groupby("season").registered.sum().sort_values(ascending=False).apply(str).reset_index()
+    musim_terdaftar_df = df.groupby("season").registered.sum().sort_values(ascending=False).reset_index()
     return musim_terdaftar_df
 
 # function untuk dataframe rata2 pesepeda casual
