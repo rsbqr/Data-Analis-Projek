@@ -55,7 +55,7 @@ def buat_biasa_per_bulan_df(df):
     # biasa_per_bulan_df.rename(columns={
     #     "mnth": "bulan"
     # }, inplace=True)
-    biasa_per_bulan_df['mnth'] = pd.Categorical(biasa_per_bulan_df['mnth'], ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"])#[1,2,3,4,5,6,7,8,9,10,11,12])
+    biasa_per_bulan_df['mnth'] = pd.Categorical(biasa_per_bulan_df['mnth'], [1,2,3,4,5,6,7,8,9,10,11,12]) #["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"])
     
     return biasa_per_bulan_df
 
@@ -65,7 +65,7 @@ def buat_terdaftar_per_bulan_df(df):
     # terdaftar_per_bulan_df.rename(columns={
     #     # "mnth": "bulan"
     # }, inplace=True)
-    terdaftar_per_bulan_df['mnth'] = pd.Categorical(biasa_per_bulan_df['mnth'], ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"])#[1,2,3,4,5,6,7,8,9,10,11,12])
+    terdaftar_per_bulan_df['mnth'] = pd.Categorical(biasa_per_bulan_df['mnth'], [1,2,3,4,5,6,7,8,9,10,11,12])#["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"])
     
     return terdaftar_per_bulan_df
 
