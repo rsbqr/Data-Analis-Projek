@@ -55,7 +55,7 @@ def buat_biasa_per_bulan_df(df):
     # biasa_per_bulan_df.rename(columns={
     #     "mnth": "bulan"
     # }, inplace=True)
-    biasa_per_bulan_df['mnth'] = pd.Categorical(biasa_per_bulan_df['mnth'], [1,2,3,4,5,6,7,8,9,10,11,12])
+    biasa_per_bulan_df['mnth'] = pd.Categorical(biasa_per_bulan_df['mnth'], ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"])#[1,2,3,4,5,6,7,8,9,10,11,12])
     
     return biasa_per_bulan_df
 
@@ -65,7 +65,7 @@ def buat_terdaftar_per_bulan_df(df):
     # terdaftar_per_bulan_df.rename(columns={
     #     # "mnth": "bulan"
     # }, inplace=True)
-    terdaftar_per_bulan_df['mnth'] = pd.Categorical(biasa_per_bulan_df['mnth'], [1,2,3,4,5,6,7,8,9,10,11,12])
+    terdaftar_per_bulan_df['mnth'] = pd.Categorical(biasa_per_bulan_df['mnth'], ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"])#[1,2,3,4,5,6,7,8,9,10,11,12])
     
     return terdaftar_per_bulan_df
 
@@ -285,7 +285,7 @@ ax[0].set_ylabel("Jumlah Pesepeda",fontsize=30)
 ax[0].set_xlabel("Bulan", fontsize=30)
 ax[0].set_title("Pesepeda Biasa", loc="center", fontsize=50)
 ax[0].tick_params(axis='y', labelsize=35)
-ax[0].tick_params(axis='x', labelsize=30)
+ax[0].tick_params(axis='x', labelsize=30, rotation=45)
 
 sns.barplot(
     y="registered", 
@@ -302,7 +302,7 @@ ax[1].yaxis.set_label_position("right")
 ax[1].yaxis.tick_right()
 ax[1].set_title("Pesepeda Terdaftar", loc="center", fontsize=50)
 ax[1].tick_params(axis='y', labelsize=35)
-ax[1].tick_params(axis='x', labelsize=30)
+ax[1].tick_params(axis='x', labelsize=30, rotation=45)
 
 st.pyplot(fig)
 
