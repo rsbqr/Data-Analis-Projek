@@ -39,7 +39,8 @@ def run():
         
         👈 _Silahkan pilih menu di sidebar_ untuk mengaksesnya
         
-        :red[Note] Jika akses menggunakan _mobile / handphone / gawai_
+        :red[Note] Jika akses menggunakan _mobile / handphone / gawai
+        _
         
         _Menu_ dapat diakses dengan klik _button_ seperti (>) pada :blue[pojok kiri atas]
 
